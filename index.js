@@ -19,7 +19,8 @@ app.use('/api/expences',expenceroute);
 
 
 app.get('/', (req, res) => {
-    res.status(200).json({message:"Server Started"});
+        res.status(200).json({message:"Server Started",Frontend:"https://expence-tracker-frontend.vercel.app/"});
+
 })
 
   connect()
